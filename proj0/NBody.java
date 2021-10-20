@@ -12,8 +12,8 @@ public class NBody {
         In in = new In(fileName);
         int number = in.readInt();
         double radius = in.readDouble();
-        Planet[] planets = new Planet[5];
-        for (int i = 0; i < 5; i++) {
+        Planet[] planets = new Planet[number];
+        for (int i = 0; i < number; i++) {
             double xP = in.readDouble();
             double yP = in.readDouble();
             double xV = in.readDouble();
